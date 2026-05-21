@@ -1,0 +1,26 @@
+# Dependencies
+node_modules/
+
+# Environment files (NEVER commit these)
+.env
+backend/.env
+frontend/.env
+
+# Build output
+frontend/dist/
+frontend/build/
+
+# Seed & temp files
+seed.mjs
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
